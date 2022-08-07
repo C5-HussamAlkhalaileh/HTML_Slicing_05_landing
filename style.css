@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    background-image: url(./images/body.jpg);
+}
+a:active{
+    color: rgb(50 105 64);
+}
+
+.div-continer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+.div-header h3{
+color: white;
+}
+.div-navbar{
+    width: 80%;
+    height: 20%;
+   
+    text-align: center;
+}
+
+a{
+    color: white;
+    margin: 12px;
+}
+i ,a:hover{
+
+    cursor: pointer;
+}
+
+i{
+    color: white;
+}
+.div-articels{
+    background-color:#6aa279;
+    color: #2f4441;
+    width: 20%;
+    width: 40%;
+    padding: 60px;
+
+    margin-top: 200px;
+
+
+}
+/*.div-articels p{
+    
+}*/
